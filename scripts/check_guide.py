@@ -4,7 +4,6 @@ import re
 import sys
 from pathlib import Path
 
-
 README = Path(__file__).resolve().parents[1] / "README.md"
 HEADING = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 LINK = re.compile(r"\[[^]]+\]\(([^)]+)\)")
